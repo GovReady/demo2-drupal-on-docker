@@ -1,15 +1,15 @@
 schema_version: "1.0.0"
-name: Demo Drupal Site
+name: Demo 2 Drupal Site
 metadata:
-  authorization_id: EXAPP01
-  description: Demonstration Drupal on AWS site
+  authorization_id: EXAPP02
+  description: Demonstration No 2 Drupal on AWS site
   organization:
     name: U.S. General Examples Administration
     abbreviation: USGEA
   repository: https://github.com/GovReady/demo-drupal-on-docker
   evidence_server:
     type: s3
-    location: arn:aws:s3:::demo-drupal-01
+    location: arn:aws:s3:::demo-drupal-02
     notes: |
         Set environment variables AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
         for user with permission to read files. Source `env.sh`.
